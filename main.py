@@ -13,26 +13,27 @@ print("Data loaded successfully")
 
 print(df.head())
 
-print("-"*150)
+print("-"*250)
 
 print(f"Shape of the DataFrame: {df.shape}")
 
-print("-"*150)
+print("-"*250)
 
 print(df.info())
 
-print("-"*150)
+print("-"*250)
 
 print(df.describe())
 
-print("-"*150)
+print("-"*250)
 
-features = df.drop(['cnt', 'casual', 'registered'], axis=1).copy()
+features = df.drop(['instant', 'cnt', 'casual', 'registered'], axis=1).copy()
 labels = df['cnt'].copy()
 train_X, test_X, train_y, test_y = train_test_split(features, labels, test_size=0.2, stratify=df['season'], shuffle=True, random_state=42)
 print(f"""
-    Train Size: {len(train_X)}
-    Test Size: {len(test_X)}""")
+Train Size: {len(train_X)}
+Test Size: {len(test_X)}
+""")
 
 preprocessors = preprocess() # preprocess the data (cleaning, encoding, scaling, etc.)
 
