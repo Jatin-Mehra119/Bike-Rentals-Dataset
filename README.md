@@ -38,3 +38,7 @@
 
 ## Trained Models
 - [Trained Models](https://drive.google.com/drive/folders/1vNOLwai1ssZ96fa1GcNegiT0aqLklbXf?usp=sharing)
+
+## Project Overview
+![Untitled drawing](https://github.com/Jatin-Mehra119/Bike-Rentals-Dataset/assets/165004724/d476d0f5-4d24-4e7a-ba1d-0c44e6cad56f)
+
